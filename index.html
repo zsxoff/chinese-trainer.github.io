@@ -31,6 +31,30 @@
         gap: var(--pico-grid-column-gap, 1rem);
         margin-top: 1rem;
       }
+      #theme-btn {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+        color: var(--pico-contrast);
+        cursor: pointer;
+        z-index: 100;
+        transition: transform 0.3s;
+      }
+      #theme-btn.active svg {
+        transform: rotate(180deg);
+      }
+      #theme-btn svg {
+        transition: transform 0.3s;
+      }
       #card {
         flex: 1;
         display: flex;
@@ -109,6 +133,15 @@
   <body>
     <main class="container">
       <h1>汉语 <small>тренажёр</small></h1>
+      <button id="theme-btn" aria-label="Включить тёмную тему">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" fill="currentColor">
+          <clipPath id="theme-cutout"><path d="M0-11h25a1 1 0 0117 13v30H0Z" /></clipPath>
+          <g clip-path="url(#theme-cutout)">
+            <circle cx="16" cy="16" r="8.4" />
+            <path d="M18.3 3.2c0 1.3-1 2.3-2.3 2.3s-2.3-1-2.3-2.3S14.7.9 16 .9s2.3 1 2.3 2.3zm-4.6 25.6c0-1.3 1-2.3 2.3-2.3s2.3 1 2.3 2.3-1 2.3-2.3 2.3-2.3-1-2.3-2.3zm15.1-10.5c-1.3 0-2.3-1-2.3-2.3s1-2.3 2.3-2.3 2.3 1 2.3 2.3-1 2.3-2.3 2.3zM3.2 13.7c1.3 0 2.3 1 2.3 2.3s-1 2.3-2.3 2.3S.9 17.3.9 16s1-2.3 2.3-2.3zm5.8-7C9 7.9 7.9 9 6.7 9S4.4 8 4.4 6.7s1-2.3 2.3-2.3S9 5.4 9 6.7zm16.3 21c-1.3 0-2.3-1-2.3-2.3s1-2.3 2.3-2.3 2.3 1 2.3 2.3-1 2.3-2.3 2.3zm2.4-21c0 1.3-1 2.3-2.3 2.3S23 7.9 23 6.7s1-2.3 2.3-2.3 2.4 1 2.4 2.3zM6.7 23C8 23 9 24 9 25.3s-1 2.3-2.3 2.3-2.3-1-2.3-2.3 1-2.3 2.3-2.3z" />
+          </g>
+        </svg>
+      </button>
 
       <div class="controls">
         <label for="lesson">
@@ -327,7 +360,26 @@
           }
         });
 
+        function initTheme() {
+          const btn = document.getElementById("theme-btn");
+          const saved = localStorage.getItem("theme");
+          if (saved === "dark") {
+            document.documentElement.setAttribute("data-theme", "dark");
+            btn.classList.add("active");
+            btn.setAttribute("aria-label", "Включить светлую тему");
+          }
+          btn.addEventListener("click", function () {
+            const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+            const theme = isDark ? "light" : "dark";
+            document.documentElement.setAttribute("data-theme", theme);
+            localStorage.setItem("theme", theme);
+            this.classList.toggle("active");
+            this.setAttribute("aria-label", isDark ? "Включить тёмную тему" : "Включить светлую тему");
+          });
+        }
+
         loadData();
+        initTheme();
       })();
     </script>
   </body>
