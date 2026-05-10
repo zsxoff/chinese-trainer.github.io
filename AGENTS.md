@@ -15,6 +15,12 @@ This is a site for practicing Chinese words through repetition.
 
 - The site uses Pico.css framework
 
+## Project structure
+
+- Main file is `index.html`
+- CSS files stores in `./css`
+- JavaScript files stores in `./js`
+
 ## Vocabulary
 
 The vocabulary for the trainer is located in the `./static` directory. It consists of YAML files containing sets of words, divided into lessons.
