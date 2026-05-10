@@ -2,6 +2,7 @@
   const YAML_FILES = ["static/06.yaml", "static/07.yaml", "static/08.yaml", "static/09.yaml", "static/10.yaml"];
 
   let allWords = [];
+  let verbWords = [];
   let lessonWords = [];
   let currentIndex = 0;
   let currentMode = "ru";
@@ -94,10 +95,14 @@
   }
 
   function selectLesson(lesson) {
-    const filtered = allWords.filter(function (w) {
-      return w.lesson === lesson;
-    });
-    lessonWords = shuffle(filtered.slice());
+    if (lesson === "verbs") {
+      lessonWords = shuffle(verbWords.slice());
+    } else {
+      const filtered = allWords.filter(function (w) {
+        return w.lesson === lesson;
+      });
+      lessonWords = shuffle(filtered.slice());
+    }
     currentIndex = 0;
     answerShown = false;
     render();
@@ -123,6 +128,11 @@
       lessonSelect.appendChild(opt);
     });
 
+    var verbOpt = document.createElement("option");
+    verbOpt.value = "verbs";
+    verbOpt.textContent = "Глаголы";
+    lessonSelect.appendChild(verbOpt);
+
     if (lessons.length > 0) {
       lessonSelect.value = lessons[0];
       selectLesson(lessons[0]);
@@ -143,11 +153,22 @@
         // skip unavailable files
       }
     }
+    try {
+      const resp = await fetch("static/verb.yaml");
+      if (resp.ok) {
+        const text = await resp.text();
+        const data = jsyaml.load(text);
+        if (Array.isArray(data)) {
+          verbWords = data;
+        }
+      }
+    } catch (_) {}
     populateLessons();
   }
 
   lessonSelect.addEventListener("change", function () {
-    selectLesson(Number(this.value));
+    var val = this.value;
+    selectLesson(val === "verbs" ? "verbs" : Number(val));
   });
 
   modeSelect.addEventListener("change", function () {
