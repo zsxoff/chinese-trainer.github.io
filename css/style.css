@@ -26,12 +26,13 @@ h1 small {
   gap: var(--pico-grid-column-gap, 1rem);
   margin-top: 1rem;
 }
-#accent-btn {
+button#accent-btn {
   position: fixed;
   top: 1rem;
   right: 4rem;
   width: 2.5rem;
   height: 2.5rem;
+  min-width: 0;
   border-radius: 50%;
   padding: 0;
   display: flex;
@@ -43,16 +44,20 @@ h1 small {
   cursor: pointer;
   z-index: 100;
   transition: transform 0.3s;
+  -webkit-appearance: none;
+  appearance: none;
+  touch-action: manipulation;
 }
-#accent-btn svg {
+button#accent-btn svg {
   transition: transform 0.3s;
 }
-#theme-btn {
+button#theme-btn {
   position: fixed;
   top: 1rem;
   right: 1rem;
   width: 2.5rem;
   height: 2.5rem;
+  min-width: 0;
   border-radius: 50%;
   padding: 0;
   display: flex;
@@ -64,6 +69,9 @@ h1 small {
   cursor: pointer;
   z-index: 100;
   transition: transform 0.3s;
+  -webkit-appearance: none;
+  appearance: none;
+  touch-action: manipulation;
 }
 #theme-btn.active svg {
   transform: rotate(180deg);
