@@ -17,11 +17,35 @@ h1 small {
   font-size: 0.5em;
   opacity: 0.6;
 }
+.accent-text {
+  color: var(--pico-primary);
+}
 .controls {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--pico-grid-column-gap, 1rem);
   margin-top: 1rem;
+}
+#accent-btn {
+  position: fixed;
+  top: 1rem;
+  right: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: var(--pico-contrast);
+  cursor: pointer;
+  z-index: 100;
+  transition: transform 0.3s;
+}
+#accent-btn svg {
+  transition: transform 0.3s;
 }
 #theme-btn {
   position: fixed;

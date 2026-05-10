@@ -195,6 +195,34 @@
     });
   }
 
+  function initAccent() {
+    const btn = document.getElementById("accent-btn");
+    const labels = {
+      blue: "Сменить акцент на зелёный",
+      green: "Сменить акцент на красный",
+      red: "Сменить акцент на синий",
+    };
+    const order = ["blue", "green", "red"];
+    const saved = localStorage.getItem("accent") || "blue";
+    if (saved !== "blue") {
+      document.documentElement.setAttribute("data-accent", saved);
+      btn.setAttribute("aria-label", labels[saved]);
+    }
+    btn.addEventListener("click", function () {
+      const current = document.documentElement.getAttribute("data-accent") || "blue";
+      const next = order[(order.indexOf(current) + 1) % order.length];
+      if (next === "blue") {
+        document.documentElement.removeAttribute("data-accent");
+        localStorage.setItem("accent", "blue");
+      } else {
+        document.documentElement.setAttribute("data-accent", next);
+        localStorage.setItem("accent", next);
+      }
+      this.setAttribute("aria-label", labels[next]);
+    });
+  }
+
   loadData();
   initTheme();
+  initAccent();
 })();
