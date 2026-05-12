@@ -1,5 +1,13 @@
 (function () {
-  const YAML_FILES = ["static/06.yaml", "static/07.yaml", "static/08.yaml", "static/09.yaml", "static/10.yaml"];
+  const YAML_FILES = [
+    "static/04.yaml",
+    "static/05.yaml",
+    "static/06.yaml",
+    "static/07.yaml",
+    "static/08.yaml",
+    "static/09.yaml",
+    "static/10.yaml",
+  ];
 
   let allWords = [];
   let verbWords = [];
