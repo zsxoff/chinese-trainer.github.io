@@ -1,5 +1,8 @@
 (function () {
   const YAML_FILES = [
+    "static/01.yaml",
+    "static/02.yaml",
+    "static/03.yaml",
     "static/04.yaml",
     "static/05.yaml",
     "static/06.yaml",
