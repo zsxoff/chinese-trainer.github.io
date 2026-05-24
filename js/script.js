@@ -1,19 +1,5 @@
 (function () {
-  const YAML_FILES = [
-    "static/01.yaml",
-    "static/02.yaml",
-    "static/03.yaml",
-    "static/04.yaml",
-    "static/05.yaml",
-    "static/06.yaml",
-    "static/07.yaml",
-    "static/08.yaml",
-    "static/09.yaml",
-    "static/10.yaml",
-  ];
-
   let allWords = [];
-  let verbWords = [];
   let lessonWords = [];
   let currentIndex = 0;
   let currentMode = "ru";
@@ -106,14 +92,10 @@
   }
 
   function selectLesson(lesson) {
-    if (lesson === "verbs") {
-      lessonWords = shuffle(verbWords.slice());
-    } else {
-      const filtered = allWords.filter(function (w) {
-        return w.lesson === lesson;
-      });
-      lessonWords = shuffle(filtered.slice());
-    }
+    const filtered = allWords.filter(function (w) {
+      return w.lesson === lesson;
+    });
+    lessonWords = shuffle(filtered.slice());
     currentIndex = 0;
     answerShown = false;
     render();
@@ -139,11 +121,6 @@
       lessonSelect.appendChild(opt);
     });
 
-    var verbOpt = document.createElement("option");
-    verbOpt.value = "verbs";
-    verbOpt.textContent = "Глаголы";
-    lessonSelect.appendChild(verbOpt);
-
     if (lessons.length > 0) {
       lessonSelect.value = lessons[0];
       selectLesson(lessons[0]);
@@ -151,35 +128,17 @@
   }
 
   async function loadData() {
-    for (const file of YAML_FILES) {
-      try {
-        const resp = await fetch(file);
-        if (!resp.ok) continue;
-        const text = await resp.text();
-        const data = jsyaml.load(text);
-        if (Array.isArray(data)) {
-          allWords = allWords.concat(data);
-        }
-      } catch (_) {
-        // skip unavailable files
-      }
-    }
     try {
-      const resp = await fetch("static/verb.yaml");
+      const resp = await fetch("static/dictionary.json");
       if (resp.ok) {
-        const text = await resp.text();
-        const data = jsyaml.load(text);
-        if (Array.isArray(data)) {
-          verbWords = data;
-        }
+        allWords = await resp.json();
       }
     } catch (_) {}
     populateLessons();
   }
 
   lessonSelect.addEventListener("change", function () {
-    var val = this.value;
-    selectLesson(val === "verbs" ? "verbs" : Number(val));
+    selectLesson(Number(this.value));
   });
 
   modeSelect.addEventListener("change", function () {
