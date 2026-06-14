@@ -3,66 +3,77 @@
     "ch": "叫",
     "pn": "jiào",
     "ru": "звать",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "什么",
     "pn": "shénme",
     "ru": "что",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "名字",
     "pn": "míngzì",
     "ru": "имя",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "我",
     "pn": "wǒ",
     "ru": "я",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "是",
     "pn": "shì",
     "ru": "являться, быть",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "老师",
     "pn": "lǎoshī",
     "ru": "учитель",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "吗",
     "pn": "ma",
     "ru": "конец вопроса",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "学生",
     "pn": "xuéshēng",
     "ru": "студент",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "人",
     "pn": "rén",
     "ru": "человек",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "中国",
     "pn": "Zhōngguó",
     "ru": "Китай",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   },
   {
     "ch": "美国",
     "pn": "Měiguó",
     "ru": "Америка",
-    "lesson": 3
+    "lesson": 3,
+    "lesson_name": "Урок 3"
   }
 ]
