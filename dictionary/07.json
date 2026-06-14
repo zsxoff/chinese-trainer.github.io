@@ -3,72 +3,84 @@
     "ch": "请",
     "pn": "qǐng",
     "ru": "пожалуйста",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "问",
     "pn": "wèn",
     "ru": "спрашивать",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "今天",
     "pn": "jīntiān",
     "ru": "сегодня",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "号",
     "pn": "hào",
     "ru": "число месяца",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "月",
     "pn": "yuè",
     "ru": "месяц",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "星期",
     "pn": "xīngqí",
     "ru": "неделя",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "昨天",
     "pn": "zuótiān",
     "ru": "вчера",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "明天",
     "pn": "míngtiān",
     "ru": "завтра",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "去",
     "pn": "qù",
     "ru": "идти",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "学校",
     "pn": "xuéxiào",
     "ru": "школа",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "看",
     "pn": "kàn",
     "ru": "смотреть, читать",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   },
   {
     "ch": "书",
     "pn": "shū",
     "ru": "книга",
-    "lesson": 7
+    "lesson": 7,
+    "lesson_name": "Урок 7"
   }
 ]

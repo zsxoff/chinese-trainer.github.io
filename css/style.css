@@ -22,9 +22,41 @@ h1 small {
 }
 .controls {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: var(--pico-grid-column-gap, 1rem);
-  margin-top: 1rem;
+  margin: 1rem auto 0;
+  width: 100%;
+}
+.controls label {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.controls label select {
+  margin-bottom: 0;
+}
+.controls label button#quiz-mode {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  text-align: left;
+  padding: var(--pico-form-element-spacing-vertical, 0.5rem) var(--pico-form-element-spacing-horizontal, 0.75rem);
+  background: var(--pico-form-element-background-color);
+  border: var(--pico-border-width, 1px) solid var(--pico-form-element-border-color);
+  color: var(--pico-form-element-color);
+  border-radius: var(--pico-border-radius, 0.25rem);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: var(--pico-font-weight, 400);
+  line-height: var(--pico-line-height, 1.5);
+  -webkit-appearance: none;
+  appearance: none;
+  transition: background-color var(--pico-transition, 0.2s), border-color var(--pico-transition, 0.2s);
+}
+.controls label button#quiz-mode:hover {
+  border-color: var(--pico-form-element-active-border-color);
+  background: var(--pico-form-element-active-background-color);
 }
 button#accent-btn {
   position: fixed;
@@ -104,6 +136,9 @@ button#theme-btn {
 }
 #display.lang-pn {
   font-size: 2.5rem;
+}
+#display.qa {
+  font-size: 1.8rem;
 }
 #answer {
   width: 100%;
