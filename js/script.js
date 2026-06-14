@@ -1,11 +1,14 @@
 (function () {
   let allWords = [];
+  let qaItems = [];
   let lessonWords = [];
   let currentIndex = 0;
   let currentMode = "ru";
+  let currentQuizMode = "words";
   let answerShown = false;
 
   const lessonSelect = document.getElementById("lesson");
+  const quizModeBtn = document.getElementById("quiz-mode");
   const modeSelect = document.getElementById("mode");
   const card = document.getElementById("card");
   const displayEl = document.getElementById("display");
@@ -26,7 +29,7 @@
 
   function render() {
     if (!lessonWords.length) {
-      displayEl.textContent = "← выберите урок";
+      displayEl.textContent = currentQuizMode === "qa" ? "← нет вопросов" : "← выберите урок";
       answerEl.hidden = true;
       showBtn.disabled = true;
       prevBtn.disabled = true;
@@ -35,30 +38,43 @@
       return;
     }
 
-    const word = lessonWords[currentIndex];
-    const text = word[currentMode];
-    displayEl.textContent = text;
-
+    const item = lessonWords[currentIndex];
     displayEl.className = "";
-    if (currentMode === "ru") displayEl.classList.add("lang-ru");
-    if (currentMode === "pn") displayEl.classList.add("lang-pn");
 
-    if (answerShown) {
-      answerContent.innerHTML =
-        "<p><strong>Иероглиф:</strong> " +
-        word.ch +
-        "</p>" +
-        "<p><strong>Пиньинь:</strong> " +
-        word.pn +
-        "</p>" +
-        "<p><strong>Русский:</strong> " +
-        word.ru +
-        "</p>";
-      answerEl.hidden = false;
-      showBtn.textContent = "Продолжить →";
+    if (currentQuizMode === "qa") {
+      displayEl.classList.add("qa");
+      displayEl.textContent = item.q;
+      if (answerShown) {
+        answerContent.innerHTML = "<p>" + item.a + "</p>";
+        answerEl.hidden = false;
+        showBtn.textContent = "Продолжить →";
+      } else {
+        answerEl.hidden = true;
+        showBtn.textContent = "Показать ответ";
+      }
     } else {
-      answerEl.hidden = true;
-      showBtn.textContent = "Показать ответ";
+      const text = item[currentMode];
+      displayEl.textContent = text;
+      if (currentMode === "ru") displayEl.classList.add("lang-ru");
+      if (currentMode === "pn") displayEl.classList.add("lang-pn");
+
+      if (answerShown) {
+        answerContent.innerHTML =
+          "<p><strong>Иероглиф:</strong> " +
+          item.ch +
+          "</p>" +
+          "<p><strong>Пиньинь:</strong> " +
+          item.pn +
+          "</p>" +
+          "<p><strong>Русский:</strong> " +
+          item.ru +
+          "</p>";
+        answerEl.hidden = false;
+        showBtn.textContent = "Продолжить →";
+      } else {
+        answerEl.hidden = true;
+        showBtn.textContent = "Показать ответ";
+      }
     }
 
     showBtn.disabled = false;
@@ -104,10 +120,12 @@
   function populateLessons() {
     var seen = {};
     var lessons = [];
+    var lessonNames = {};
     allWords.forEach(function (w) {
       if (!seen[w.lesson]) {
         seen[w.lesson] = true;
         lessons.push(w.lesson);
+        lessonNames[w.lesson] = w.lesson_name;
       }
     });
     lessons.sort(function (a, b) {
@@ -117,7 +135,7 @@
     lessons.forEach(function (l) {
       var opt = document.createElement("option");
       opt.value = l;
-      opt.textContent = "Урок " + l;
+      opt.textContent = lessonNames[l];
       lessonSelect.appendChild(opt);
     });
 
@@ -134,11 +152,37 @@
         allWords = await resp.json();
       }
     } catch (_) {}
+    try {
+      const resp = await fetch("static/questions.json");
+      if (resp.ok) {
+        qaItems = await resp.json();
+      }
+    } catch (_) {}
     populateLessons();
   }
 
   lessonSelect.addEventListener("change", function () {
     selectLesson(Number(this.value));
+  });
+
+  quizModeBtn.addEventListener("click", function () {
+    if (currentQuizMode === "words") {
+      currentQuizMode = "qa";
+      this.textContent = "Вопрос-Ответ";
+      lessonSelect.parentElement.style.visibility = "hidden";
+      modeSelect.parentElement.style.visibility = "hidden";
+      lessonWords = qaItems.slice();
+      currentIndex = 0;
+      answerShown = false;
+      render();
+    } else {
+      currentQuizMode = "words";
+      this.textContent = "Слова";
+      lessonSelect.parentElement.style.visibility = "visible";
+      modeSelect.parentElement.style.visibility = "visible";
+      lessonSelect.value = lessonSelect.options[0].value;
+      selectLesson(Number(lessonSelect.options[0].value));
+    }
   });
 
   modeSelect.addEventListener("change", function () {
