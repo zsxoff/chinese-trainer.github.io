@@ -7,7 +7,7 @@ def main():
 
     dictionary: list[dict[str, str | int]] = []
 
-    for file in files:
+    for file in sorted(files):
         with file.open("r") as readfile:
             data: list[dict[str, str | int]] = json.load(readfile)
             dictionary.extend(data)
