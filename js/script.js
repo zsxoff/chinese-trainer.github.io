@@ -17,6 +17,9 @@
   const prevBtn = document.getElementById("prev");
   const nextBtn = document.getElementById("next");
   const showBtn = document.getElementById("show-answer");
+  const difficultyEl = document.getElementById("difficulty");
+  const easyBtn = document.getElementById("easy-btn");
+  const hardBtn = document.getElementById("hard-btn");
   const counterEl = document.getElementById("counter");
 
   function shuffle(arr) {
@@ -34,6 +37,8 @@
       showBtn.disabled = true;
       prevBtn.disabled = true;
       nextBtn.disabled = true;
+      difficultyEl.hidden = true;
+      showBtn.hidden = false;
       counterEl.textContent = "";
       return;
     }
@@ -44,6 +49,8 @@
     if (currentQuizMode === "qa") {
       displayEl.classList.add("qa");
       displayEl.textContent = item.q;
+      showBtn.hidden = false;
+      difficultyEl.hidden = true;
       if (answerShown) {
         answerContent.innerHTML = "<p>" + item.a + "</p>";
         answerEl.hidden = false;
@@ -70,9 +77,12 @@
           item.ru +
           "</p>";
         answerEl.hidden = false;
-        showBtn.textContent = "Продолжить →";
+        showBtn.hidden = true;
+        difficultyEl.hidden = false;
       } else {
         answerEl.hidden = true;
+        showBtn.hidden = false;
+        difficultyEl.hidden = true;
         showBtn.textContent = "Показать ответ";
       }
     }
@@ -105,6 +115,12 @@
     currentIndex = (currentIndex + 1) % lessonWords.length;
     answerShown = false;
     render();
+  }
+
+  function markHard() {
+    if (!lessonWords.length) return;
+    lessonWords.push(lessonWords[currentIndex]);
+    nextWord();
   }
 
   function selectLesson(lesson) {
@@ -195,6 +211,8 @@
   card.addEventListener("click", showAnswer);
   prevBtn.addEventListener("click", prevWord);
   nextBtn.addEventListener("click", nextWord);
+  easyBtn.addEventListener("click", nextWord);
+  hardBtn.addEventListener("click", markHard);
 
   document.addEventListener("keydown", function (e) {
     if (e.target.tagName === "SELECT") return;

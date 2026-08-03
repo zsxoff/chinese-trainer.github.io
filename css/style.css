@@ -172,6 +172,25 @@ button#theme-btn {
   width: 4rem;
   font-size: 1.25rem;
 }
+.nav-center {
+  display: flex;
+  align-items: stretch;
+}
+.nav-center > * {
+  flex: 1;
+  margin: 0;
+}
+#difficulty {
+  display: flex;
+  gap: 0.5rem;
+}
+#difficulty button {
+  flex: 1;
+  margin: 0;
+}
+#difficulty[hidden] {
+  display: none;
+}
 #counter {
   text-align: center;
   margin-top: 0.5rem;
