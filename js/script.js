@@ -62,10 +62,16 @@
     } else {
       const text = item[currentMode];
       displayEl.textContent = text;
+      displayEl.classList.add("accent-text");
       if (currentMode === "ru") displayEl.classList.add("lang-ru");
       if (currentMode === "pn") displayEl.classList.add("lang-pn");
 
       if (answerShown) {
+        const example = item.example
+          ? "<p><strong>Пример:</strong> " +
+            item.example.replace(/\[\[(.*?)\]\]/g, '<span class="example-zh">$1</span>') +
+            "</p>"
+          : "";
         answerContent.innerHTML =
           "<p><strong>Иероглиф:</strong> " +
           item.ch +
@@ -75,7 +81,8 @@
           "</p>" +
           "<p><strong>Русский:</strong> " +
           item.ru +
-          "</p>";
+          "</p>" +
+          example;
         answerEl.hidden = false;
         showBtn.hidden = true;
         difficultyEl.hidden = false;

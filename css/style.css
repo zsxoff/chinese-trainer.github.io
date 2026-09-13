@@ -151,6 +151,10 @@ button#theme-btn {
 #answer p:last-child {
   margin-bottom: 0;
 }
+.example-zh {
+  color: var(--pico-primary);
+  font-weight: 600;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
