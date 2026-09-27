@@ -3,1610 +3,1610 @@
     "ch": "你",
     "pn": "nǐ",
     "ru": "ты",
-    "lesson": 1,
+    "lesson": 101,
     "lesson_name": "Урок 1"
   },
   {
     "ch": "好",
     "pn": "hǎo",
     "ru": "хорошо",
-    "lesson": 1,
+    "lesson": 101,
     "lesson_name": "Урок 1"
   },
   {
     "ch": "您",
     "pn": "nín",
     "ru": "вы (уваж.)",
-    "lesson": 1,
+    "lesson": 101,
     "lesson_name": "Урок 1"
   },
   {
     "ch": "你们",
     "pn": "nǐmen",
     "ru": "вы (множ.)",
-    "lesson": 1,
+    "lesson": 101,
     "lesson_name": "Урок 1"
   },
   {
     "ch": "对不起",
     "pn": "duìbùqǐ",
     "ru": "извините",
-    "lesson": 1,
+    "lesson": 101,
     "lesson_name": "Урок 1"
   },
   {
     "ch": "没关系",
     "pn": "méiguānxì",
     "ru": "все в порядке, не важно",
-    "lesson": 1,
+    "lesson": 101,
     "lesson_name": "Урок 1"
   },
   {
     "ch": "谢谢",
     "pn": "xièxie",
     "ru": "спасибо",
-    "lesson": 2,
+    "lesson": 102,
     "lesson_name": "Урок 2"
   },
   {
     "ch": "不",
     "pn": "bù",
     "ru": "не",
-    "lesson": 2,
+    "lesson": 102,
     "lesson_name": "Урок 2"
   },
   {
     "ch": "不客气",
     "pn": "bù kèqì",
     "ru": "не за что",
-    "lesson": 2,
+    "lesson": 102,
     "lesson_name": "Урок 2"
   },
   {
     "ch": "再见",
     "pn": "zàijiàn",
     "ru": "до свидания",
-    "lesson": 2,
+    "lesson": 102,
     "lesson_name": "Урок 2"
   },
   {
     "ch": "叫",
     "pn": "jiào",
     "ru": "звать",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "什么",
     "pn": "shénme",
     "ru": "что",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "名字",
     "pn": "míngzì",
     "ru": "имя",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "我",
     "pn": "wǒ",
     "ru": "я",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "是",
     "pn": "shì",
     "ru": "являться, быть",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "老师",
     "pn": "lǎoshī",
     "ru": "учитель",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "吗",
     "pn": "ma",
     "ru": "конец вопроса",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "学生",
     "pn": "xuéshēng",
     "ru": "студент",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "人",
     "pn": "rén",
     "ru": "человек",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "中国",
     "pn": "Zhōngguó",
     "ru": "Китай",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "美国",
     "pn": "Měiguó",
     "ru": "Америка",
-    "lesson": 3,
+    "lesson": 103,
     "lesson_name": "Урок 3"
   },
   {
     "ch": "她",
     "pn": "tā",
     "ru": "она",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "谁",
     "pn": "shéi",
     "ru": "кто",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "的",
     "pn": "de",
     "ru": "принадлежит, аттрибут",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "汉语",
     "pn": "Hànyǔ",
     "ru": "китайский язык",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "哪",
     "pn": "nǎ",
     "ru": "где, какой",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "国",
     "pn": "guó",
     "ru": "страна, нация",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "呢",
     "pn": "ne",
     "ru": "вопросительная частица",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "他",
     "pn": "tā",
     "ru": "он",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "同学",
     "pn": "tóngxué",
     "ru": "одноклассник",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "朋友",
     "pn": "péngyǒu",
     "ru": "друг",
-    "lesson": 4,
+    "lesson": 104,
     "lesson_name": "Урок 4"
   },
   {
     "ch": "家",
     "pn": "jiā",
     "ru": "дом, семья",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "有",
     "pn": "yǒu",
     "ru": "иметь",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "口",
     "pn": "kǒu",
     "ru": "счетное слово для членов семьи",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "女儿",
     "pn": "nǚér",
     "ru": "дочь",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "几",
     "pn": "jǐ",
     "ru": "несколько, как много",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "岁",
     "pn": "suì",
     "ru": "возраст, лет",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "了",
     "pn": "le",
     "ru": "уже",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "今年",
     "pn": "jīnnián",
     "ru": "этот год",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "多大",
     "pn": "duō dà",
     "ru": "сколько лет",
-    "lesson": 5,
+    "lesson": 105,
     "lesson_name": "Урок 5"
   },
   {
     "ch": "会",
     "pn": "huì",
     "ru": "уметь, мочь",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "说",
     "pn": "shuō",
     "ru": "говорить, сказать",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "妈妈",
     "pn": "māma",
     "ru": "мама",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "菜",
     "pn": "cài",
     "ru": "кухня, блюдо",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "很",
     "pn": "hěn",
     "ru": "очень",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "好吃",
     "pn": "hàochī",
     "ru": "вкусный",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "做",
     "pn": "zuò",
     "ru": "делать",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "写",
     "pn": "xiě",
     "ru": "писать",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "汉字",
     "pn": "Hànzì",
     "ru": "китайский иероглиф",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "字",
     "pn": "zì",
     "ru": "символ, слово",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "怎么",
     "pn": "zěnme",
     "ru": "как",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "读",
     "pn": "dú",
     "ru": "читать",
-    "lesson": 6,
+    "lesson": 106,
     "lesson_name": "Урок 6"
   },
   {
     "ch": "请",
     "pn": "qǐng",
     "ru": "пожалуйста",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "问",
     "pn": "wèn",
     "ru": "спрашивать",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "今天",
     "pn": "jīntiān",
     "ru": "сегодня",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "号",
     "pn": "hào",
     "ru": "число месяца",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "月",
     "pn": "yuè",
     "ru": "месяц",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "星期",
     "pn": "xīngqí",
     "ru": "неделя",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "昨天",
     "pn": "zuótiān",
     "ru": "вчера",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "明天",
     "pn": "míngtiān",
     "ru": "завтра",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "去",
     "pn": "qù",
     "ru": "идти",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "学校",
     "pn": "xuéxiào",
     "ru": "школа",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "看",
     "pn": "kàn",
     "ru": "смотреть, читать",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "书",
     "pn": "shū",
     "ru": "книга",
-    "lesson": 7,
+    "lesson": 107,
     "lesson_name": "Урок 7"
   },
   {
     "ch": "想",
     "pn": "xiǎng",
     "ru": "хотеть",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "喝",
     "pn": "hē",
     "ru": "пить",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "茶",
     "pn": "chá",
     "ru": "чай",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "吃",
     "pn": "chī",
     "ru": "есть (еду)",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "米饭",
     "pn": "mǐfàn",
     "ru": "рис",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "下午",
     "pn": "xiàwǔ",
     "ru": "полдень",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "商店",
     "pn": "shāngdiàn",
     "ru": "магазин",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "买",
     "pn": "mǎi",
     "ru": "покупать",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "个",
     "pn": "gè",
     "ru": "счетное слово для предметов",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "杯子",
     "pn": "bēizi",
     "ru": "чашка",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "这",
     "pn": "zhè",
     "ru": "это",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "多少",
     "pn": "duōshǎo",
     "ru": "как много, сколько",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "块",
     "pn": "kuài",
     "ru": "юань (разговорн.)",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "那",
     "pn": "nà",
     "ru": "тот",
-    "lesson": 8,
+    "lesson": 108,
     "lesson_name": "Урок 8"
   },
   {
     "ch": "小",
     "pn": "xiǎo",
     "ru": "маленький",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "猫",
     "pn": "māo",
     "ru": "кошка",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "在",
     "pn": "zài",
     "ru": "быть в/на",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "哪儿",
     "pn": "nàr",
     "ru": "где, здесь, там",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "狗",
     "pn": "gǒu",
     "ru": "собака",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "椅子",
     "pn": "yǐzi",
     "ru": "стул",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "下面",
     "pn": "xiàmiàn",
     "ru": "под, внизу",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "工作",
     "pn": "gōngzuò",
     "ru": "работать",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "儿子",
     "pn": "érzi",
     "ru": "сын",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "医院",
     "pn": "yīyuàn",
     "ru": "больница",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "医生",
     "pn": "yīshēng",
     "ru": "доктор",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "爸爸",
     "pn": "bàba",
     "ru": "папа",
-    "lesson": 9,
+    "lesson": 109,
     "lesson_name": "Урок 9"
   },
   {
     "ch": "桌子",
     "pn": "zhuōzi",
     "ru": "стол",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "上",
     "pn": "shàng",
     "ru": "на, над",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "电脑",
     "pn": "diànnǎo",
     "ru": "компьютер",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "和",
     "pn": "hé",
     "ru": "и",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "本",
     "pn": "běn",
     "ru": "счетное слово для книг",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "里",
     "pn": "lǐ",
     "ru": "внутри",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "前面",
     "pn": "qiánmiàn",
     "ru": "впереди",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "后面",
     "pn": "hòumiàn",
     "ru": "сзади",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "这儿",
     "pn": "zhèr",
     "ru": "здесь",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "没有",
     "pn": "méiyǒu",
     "ru": "нет (there is not)",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "能",
     "pn": "néng",
     "ru": "могу ли (can, may)",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "坐",
     "pn": "zuò",
     "ru": "сесть, сидеть",
-    "lesson": 10,
+    "lesson": 110,
     "lesson_name": "Урок 10"
   },
   {
     "ch": "现在",
     "pn": "xiànzài",
     "ru": "сейчас",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "点",
     "pn": "diǎn",
     "ru": "часов (o'clock)",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "分",
     "pn": "fēn",
     "ru": "минут",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "中午",
     "pn": "zhōngwǔ",
     "ru": "полдень",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "吃饭",
     "pn": "chī fàn",
     "ru": "есть еду",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "时候",
     "pn": "shíhòu",
     "ru": "когда, в какой момент, в какое время",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "回",
     "pn": "huí",
     "ru": "приходить, возвращаться",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "我们",
     "pn": "wǒmen",
     "ru": "мы",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "电影",
     "pn": "diànyǐng",
     "ru": "фильм, кино",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "住",
     "pn": "zhù",
     "ru": "остановиться, жить",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "前",
     "pn": "qián",
     "ru": "ранее, до этого",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "北京",
     "pn": "Běijīng",
     "ru": "Пекин",
-    "lesson": 11,
+    "lesson": 111,
     "lesson_name": "Урок 11"
   },
   {
     "ch": "天气",
     "pn": "tiānqì",
     "ru": "погода",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "怎么样",
     "pn": "zěnmeyàng",
     "ru": "как (погода, состояние)",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "太 ... 了",
     "pn": "tài ... le",
     "ru": "слишком",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "热",
     "pn": "rè",
     "ru": "горячо, жарко",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "冷",
     "pn": "lěng",
     "ru": "холодно",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "下雨",
     "pn": "xiàyǔ",
     "ru": "идет дождь",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "小姐",
     "pn": "xiǎojiě",
     "ru": "мисс",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "来",
     "pn": "lái",
     "ru": "приходить",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "身体",
     "pn": "shēntǐ",
     "ru": "тело",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "爱",
     "pn": "ài",
     "ru": "любить, нравиться",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "些",
     "pn": "xiē",
     "ru": "несколько",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "水果",
     "pn": "shuǐguǒ",
     "ru": "фрукт",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "水",
     "pn": "shuǐ",
     "ru": "вода",
-    "lesson": 12,
+    "lesson": 112,
     "lesson_name": "Урок 12"
   },
   {
     "ch": "喂",
     "pn": "wèi",
     "ru": "привет",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "也",
     "pn": "yě",
     "ru": "также",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "学习",
     "pn": "xuéxí",
     "ru": "изучать",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "上午",
     "pn": "shàngwǔ",
     "ru": "утро",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "睡觉",
     "pn": "shuìjiào",
     "ru": "спать",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "电视",
     "pn": "diànshì",
     "ru": "телевидение",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "喜欢",
     "pn": "xǐhuān",
     "ru": "нравиться",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "给",
     "pn": "gěi",
     "ru": "(предлог 'to')",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "打电话",
     "pn": "dǎ diànhuà",
     "ru": "позвонить",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "吧",
     "pn": "ba",
     "ru": "(частица предложения, побуждения)",
-    "lesson": 13,
+    "lesson": 113,
     "lesson_name": "Урок 13"
   },
   {
     "ch": "东西",
     "pn": "dōngxī",
     "ru": "вещи",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "一点儿",
     "pn": "yīdiǎnr",
     "ru": "немного",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "苹果",
     "pn": "píngguǒ",
     "ru": "яблоко",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "看见",
     "pn": "kànjiàn",
     "ru": "видеть",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "先生",
     "pn": "xiānshēng",
     "ru": "мистер",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "开",
     "pn": "kāi",
     "ru": "водить машину",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "车",
     "pn": "chē",
     "ru": "машина, транспорт",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "回来",
     "pn": "huílái",
     "ru": "возвращаться",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "分钟",
     "pn": "fēnzhōng",
     "ru": "минута",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "后",
     "pn": "hòu",
     "ru": "после, позже",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "衣服",
     "pn": "yīfú",
     "ru": "одежда",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "漂亮",
     "pn": "piàoliang",
     "ru": "красивый",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "啊",
     "pn": "a",
     "ru": "(частица подтверждения)",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "少",
     "pn": "shǎo",
     "ru": "немного, мало",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "不少",
     "pn": "bùshǎo",
     "ru": "много",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "这些",
     "pn": "zhèxiē",
     "ru": "эти",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "都",
     "pn": "dōu",
     "ru": "оба, все",
-    "lesson": 14,
+    "lesson": 114,
     "lesson_name": "Урок 14"
   },
   {
     "ch": "认识",
     "pn": "rènshí",
     "ru": "встретиться, знакомиться",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "年",
     "pn": "nián",
     "ru": "год",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "大学",
     "pn": "dàxué",
     "ru": "университет, колледж",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "饭店",
     "pn": "fàndiàn",
     "ru": "ресторан, отель",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "出租车",
     "pn": "chūzūchē",
     "ru": "такси",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "一起",
     "pn": "yīqǐ",
     "ru": "вместе",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "高兴",
     "pn": "gāoxìng",
     "ru": "рад, счастлив",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "听",
     "pn": "tīng",
     "ru": "слушать",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "飞机",
     "pn": "fēijī",
     "ru": "самолет",
-    "lesson": 15,
+    "lesson": 115,
     "lesson_name": "Урок 15"
   },
   {
     "ch": "旅游",
     "pn": "lǚ yóu",
     "ru": "путешествовать",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "觉得",
     "pn": "juédé",
     "ru": "считать, чувствовать",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "最",
     "pn": "zuì",
     "ru": "самый",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "为什么",
     "pn": "wèishéme",
     "ru": "почему",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "也",
     "pn": "yě",
     "ru": "тоже, также",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "运动",
     "pn": "yùndòng",
     "ru": "спорт",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "踢足球",
     "pn": "tī zúqiú",
     "ru": "играть в футбол",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "一起",
     "pn": "yīqǐ",
     "ru": "вместе",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "要",
     "pn": "yào",
     "ru": "хотеть",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "新",
     "pn": "xīn",
     "ru": "новый",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "它",
     "pn": "tā",
     "ru": "это (неодуш.)",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "眼睛",
     "pn": "yǎnjīng",
     "ru": "глаза",
-    "lesson": 16,
+    "lesson": 116,
     "lesson_name": "Урок 16"
   },
   {
     "ch": "生病",
     "pn": "shēng bìng",
     "ru": "болеть",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "每",
     "pn": "měi",
     "ru": "каждый",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "早上",
     "pn": "zǎo shàng",
     "ru": "утро",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "跑步",
     "pn": "pǎo bù",
     "ru": "бегать",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "起床",
     "pn": "qǐ chuáng",
     "ru": "просыпаться, вставать с кровати",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "药",
     "pn": "yào",
     "ru": "таблетки, лекарства",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "身体",
     "pn": "shēn tǐ",
     "ru": "тело, здоровье",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "出院",
     "pn": "chū yuàn",
     "ru": "выписываться из больницы",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "高",
     "pn": "gāo",
     "ru": "высокий, длинный",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "米",
     "pn": "mǐ",
     "ru": "метр",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "知道",
     "pn": "zhī dào",
     "ru": "знать (как факт)",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "休息",
     "pn": "xiū xī",
     "ru": "отдыхать",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "忙",
     "pn": "máng",
     "ru": "занятой (работой)",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "时间",
     "pn": "shí jiān",
     "ru": "время",
-    "lesson": 17,
+    "lesson": 117,
     "lesson_name": "Урок 17"
   },
   {
     "ch": "手表",
     "pn": "shǒubiǎo",
     "ru": "наручные часы",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "千",
     "pn": "qiān",
     "ru": "сотня",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "报纸",
     "pn": "bàozhǐ",
     "ru": "новостная газета",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "送",
     "pn": "sòng",
     "ru": "отправлять, доставлять",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "一下",
     "pn": "yīxià",
     "ru": "(короткое действие, попытка)",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "牛奶",
     "pn": "niúnǎi",
     "ru": "молоко",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "房间",
     "pn": "fángjiān",
     "ru": "комната",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "丈夫",
     "pn": "zhàngfū",
     "ru": "муж",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "旁边",
     "pn": "pángbiān",
     "ru": "рядом",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "真",
     "pn": "zhēn",
     "ru": "действительно",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "粉色",
     "pn": "fěnsè",
     "ru": "розовый",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "颜色",
     "pn": "yánsè",
     "ru": "цвет",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "左边",
     "pn": "zuǒbiān",
     "ru": "слева",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "红色",
     "pn": "hóngsè",
     "ru": "красный",
-    "lesson": 18,
+    "lesson": 118,
     "lesson_name": "Урок 18"
   },
   {
     "ch": "生日",
     "pn": "shēng rì",
     "ru": "день рождения",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "快乐",
     "pn": "kuài lè",
     "ru": "быть в хорошем настроении",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "给",
     "pn": "gěi",
     "ru": "давать, дательный падеж",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "接",
     "pn": "jiē",
     "ru": "отвечать по телефону",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "晚上",
     "pn": "wǎn shàng",
     "ru": "вечером",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "问",
     "pn": "wèn",
     "ru": "спрашивать",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "非常",
     "pn": "fēi cháng",
     "ru": "очень, необыкновенный",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "开始",
     "pn": "kāi shǐ",
     "ru": "начинать",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "已经",
     "pn": "yǐ jīng",
     "ru": "уже",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "长",
     "pn": "zhǎng",
     "ru": "длинный, долго",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "两",
     "pn": "liǎng",
     "ru": "два",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "帮",
     "pn": "bāng",
     "ru": "помогать",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "介绍",
     "pn": "jiè shào",
     "ru": "представлять, знакомить",
-    "lesson": 19,
+    "lesson": 119,
     "lesson_name": "Урок 19"
   },
   {
     "ch": "外面",
     "pn": "wàimiàn",
     "ru": "снаружи",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "准备",
     "pn": "zhǔnbèi",
     "ru": "планировать, участвовать",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "就",
     "pn": "jiù",
     "ru": "решение, заключение",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "鱼",
     "pn": "yú",
     "ru": "рыба",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "吧",
     "pn": "ba",
     "ru": "частица заключения, команда",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "件",
     "pn": "jiàn",
     "ru": "счетное слово для одежды, часть",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "还",
     "pn": "hái",
     "ru": "сносно",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "可以",
     "pn": "kěyǐ",
     "ru": "неплохо",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "不错",
     "pn": "bùcuò",
     "ru": "довольно хорошо",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "考试",
     "pn": "kǎoshì",
     "ru": "экзамен, тест",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "意思",
     "pn": "yìsi",
     "ru": "смысл",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "咖啡",
     "pn": "kāfēi",
     "ru": "кофе",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "对",
     "pn": "duì",
     "ru": "для, к",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
     "ch": "以后",
     "pn": "yǐhòu",
     "ru": "после, позже",
-    "lesson": 20,
+    "lesson": 120,
     "lesson_name": "Урок 20"
   },
   {
@@ -1806,83 +1806,11 @@
     "lesson_name": "Повторение"
   },
   {
-    "ch": "课",
-    "pn": "kè",
-    "ru": "урок, предмет, курс",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "帮助",
-    "pn": "bāng zhù",
-    "ru": "помогать, содействовать",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "别",
-    "pn": "bié",
-    "ru": "не, не нужно",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "哥哥",
-    "pn": "gē ge",
-    "ru": "старший брат",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "鸡蛋",
-    "pn": "jī dàn",
-    "ru": "куриное яйцо",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "西瓜",
-    "pn": "xī guā",
-    "ru": "арбуз",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "正在",
-    "pn": "zhèng zài",
-    "ru": "в течение, в процессе",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "手机",
-    "pn": "shǒu jī",
-    "ru": "мобильный телефон",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
-    "ch": "洗",
-    "pn": "xǐ",
-    "ru": "мыть, стирать",
-    "example": "",
-    "lesson": 25,
-    "lesson_name": "HSK 2 - Урок 10"
-  },
-  {
     "ch": "教室",
     "pn": "jiào shì",
     "ru": "класс, аудитория",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1890,7 +1818,7 @@
     "pn": "jī chǎng",
     "ru": "аэропорт",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1898,7 +1826,7 @@
     "pn": "lù",
     "ru": "дорога, путь",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1906,7 +1834,7 @@
     "pn": "lí",
     "ru": "от (указывает на расстояния)",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1914,7 +1842,7 @@
     "pn": "gōng sī",
     "ru": "компания, фирма",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1922,7 +1850,7 @@
     "pn": "yuǎn",
     "ru": "далекий (во времени или пространстве",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1930,7 +1858,7 @@
     "pn": "gōng gòng qì chē",
     "ru": "общественный автобус",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1938,7 +1866,7 @@
     "pn": "xiǎo shí",
     "ru": "час",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1946,7 +1874,7 @@
     "pn": "màn",
     "ru": "медленный",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1954,7 +1882,7 @@
     "pn": "kuài",
     "ru": "быстрый, скорый",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1962,7 +1890,7 @@
     "pn": "guo",
     "ru": "завершенность действия (после глагола)",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1970,7 +1898,7 @@
     "pn": "zǒu",
     "ru": "ходить",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1978,7 +1906,7 @@
     "pn": "dào",
     "ru": "прибывать, добираться",
     "example": "",
-    "lesson": 22,
+    "lesson": 207,
     "lesson_name": "HSK 2 - Урок 7"
   },
   {
@@ -1986,7 +1914,7 @@
     "pn": "zài",
     "ru": "снова, еще раз",
     "example": "请[[再]]说一遍。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -1994,7 +1922,7 @@
     "pn": "ràng",
     "ru": "разрешать, позволять, заставлять",
     "example": "妈妈[[让]]我吃苹果。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2002,7 +1930,7 @@
     "pn": "gàosù",
     "ru": "сказать, дать знать",
     "example": "请[[告诉]]我你的名字。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2010,7 +1938,7 @@
     "pn": "děng",
     "ru": "ждать",
     "example": "请[[等]]一等，我马上来。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2018,7 +1946,7 @@
     "pn": "zhǎo",
     "ru": "искать",
     "example": "我在[[找]]我的书。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2026,7 +1954,7 @@
     "pn": "shìqíng",
     "ru": "дело, событие",
     "example": "他有很多[[事情]]要做。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2034,7 +1962,7 @@
     "pn": "fúwùyuán",
     "ru": "обслуживающий персонал",
     "example": "[[服务员]]，请给我们两杯水。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2042,7 +1970,7 @@
     "pn": "bái",
     "ru": "белый",
     "example": "我的猫是[[白]]色的。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2050,7 +1978,7 @@
     "pn": "hēi",
     "ru": "черный",
     "example": "他的头发是[[黑]]色的。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2058,7 +1986,7 @@
     "pn": "guì",
     "ru": "дорогой",
     "example": "这个手机很[[贵]]。",
-    "lesson": 23,
+    "lesson": 208,
     "lesson_name": "HSK 2 - Урок 8"
   },
   {
@@ -2066,7 +1994,7 @@
     "pn": "cuò",
     "ru": "ошибочный, плохой",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2074,7 +2002,7 @@
     "pn": "cóng",
     "ru": "из, от, с",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2082,7 +2010,7 @@
     "pn": "tiào wǔ",
     "ru": "танцевать",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2090,7 +2018,7 @@
     "pn": "dì yī",
     "ru": "первый, номер один",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2098,7 +2026,7 @@
     "pn": "xī wàng",
     "ru": "надеяться, желать",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2106,7 +2034,7 @@
     "pn": "wèn tí",
     "ru": "задавать вопрос",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2114,7 +2042,7 @@
     "pn": "huān yíng",
     "ru": "приветствовать, добро пожаловать",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2122,7 +2050,7 @@
     "pn": "shàng bān",
     "ru": "ходить на работу",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2130,7 +2058,7 @@
     "pn": "dǒng",
     "ru": "понимать, знать",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2138,7 +2066,7 @@
     "pn": "wán",
     "ru": "завершать(ся), заканчивать(ся)",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
   },
   {
@@ -2146,7 +2074,79 @@
     "pn": "tí",
     "ru": "вопрос",
     "example": "",
-    "lesson": 24,
+    "lesson": 209,
     "lesson_name": "HSK 2 - Урок 9"
+  },
+  {
+    "ch": "课",
+    "pn": "kè",
+    "ru": "урок, предмет, курс",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "帮助",
+    "pn": "bāng zhù",
+    "ru": "помогать, содействовать",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "别",
+    "pn": "bié",
+    "ru": "не, не нужно",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "哥哥",
+    "pn": "gē ge",
+    "ru": "старший брат",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "鸡蛋",
+    "pn": "jī dàn",
+    "ru": "куриное яйцо",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "西瓜",
+    "pn": "xī guā",
+    "ru": "арбуз",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "正在",
+    "pn": "zhèng zài",
+    "ru": "в течение, в процессе",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "手机",
+    "pn": "shǒu jī",
+    "ru": "мобильный телефон",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
+  },
+  {
+    "ch": "洗",
+    "pn": "xǐ",
+    "ru": "мыть, стирать",
+    "example": "",
+    "lesson": 210,
+    "lesson_name": "HSK 2 - Урок 10"
   }
 ]
