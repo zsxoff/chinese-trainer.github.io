@@ -1878,6 +1878,110 @@
     "lesson_name": "HSK 2 - Урок 10"
   },
   {
+    "ch": "教室",
+    "pn": "jiào shì",
+    "ru": "класс, аудитория",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "机场",
+    "pn": "jī chǎng",
+    "ru": "аэропорт",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "路",
+    "pn": "lù",
+    "ru": "дорога, путь",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "离",
+    "pn": "lí",
+    "ru": "от (указывает на расстояния)",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "公司",
+    "pn": "gōng sī",
+    "ru": "компания, фирма",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "远",
+    "pn": "yuǎn",
+    "ru": "далекий (во времени или пространстве",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "公共汽车",
+    "pn": "gōng gòng qì chē",
+    "ru": "общественный автобус",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "小时",
+    "pn": "xiǎo shí",
+    "ru": "час",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "慢",
+    "pn": "màn",
+    "ru": "медленный",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "快",
+    "pn": "kuài",
+    "ru": "быстрый, скорый",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "过",
+    "pn": "guo",
+    "ru": "завершенность действия (после глагола)",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "走",
+    "pn": "zǒu",
+    "ru": "ходить",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
+    "ch": "到",
+    "pn": "dào",
+    "ru": "прибывать, добираться",
+    "example": "",
+    "lesson": 22,
+    "lesson_name": "HSK 2 - Урок 7"
+  },
+  {
     "ch": "再",
     "pn": "zài",
     "ru": "снова, еще раз",
