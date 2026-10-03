@@ -1806,6 +1806,110 @@
     "lesson_name": "HSK 1 - Урок 20"
   },
   {
+    "ch": "生日",
+    "pn": "shēng rì",
+    "ru": "день рождения",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "快乐",
+    "pn": "kuài lè",
+    "ru": "счастливый, радостный",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "给",
+    "pn": "gěi",
+    "ru": "давать, предоставлять",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "接",
+    "pn": "jiē",
+    "ru": "получать， отвечать",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "晚上",
+    "pn": "wǎn shang",
+    "ru": "вечер",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "问",
+    "pn": "wèn",
+    "ru": "спрашивать",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "非常",
+    "pn": "fēi cháng",
+    "ru": "очень, чрезвычайно",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "开始",
+    "pn": "kāi shǐ",
+    "ru": "начинать",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "已经",
+    "pn": "yǐ jīng",
+    "ru": "уже",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "长",
+    "pn": "cháng",
+    "ru": "длинный, долгий",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "两",
+    "pn": "liǎng",
+    "ru": "два, оба",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "帮",
+    "pn": "bāng",
+    "ru": "помогать",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
+    "ch": "介绍",
+    "pn": "jiè shào",
+    "ru": "представлять, знакомить",
+    "example": "",
+    "lesson": 204,
+    "lesson_name": "HSK 2 - Урок 4"
+  },
+  {
     "ch": "外面",
     "pn": "wài mian",
     "ru": "снаружи, внешняя часть",
