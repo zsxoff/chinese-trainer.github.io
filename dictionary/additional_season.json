@@ -1,0 +1,30 @@
+[
+  {
+    "ch": "冬天",
+    "pn": "dōng tiān",
+    "ru": "зима",
+    "lesson": 1005,
+    "lesson_name": "Сезоны"
+  },
+  {
+    "ch": "夏天",
+    "pn": "xià tiān",
+    "ru": "лето",
+    "lesson": 1005,
+    "lesson_name": "Сезоны"
+  },
+  {
+    "ch": "秋天",
+    "pn": "qiū tiān",
+    "ru": "осень",
+    "lesson": 1005,
+    "lesson_name": "Сезоны"
+  },
+  {
+    "ch": "春天",
+    "pn": "chūn tiān",
+    "ru": "весна",
+    "lesson": 1005,
+    "lesson_name": "Сезоны"
+  }
+]
