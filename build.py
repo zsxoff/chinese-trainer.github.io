@@ -1,7 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import json
 import pathlib
+
+from build_lessons import build_lessons
 
 
 def main():
@@ -16,6 +18,9 @@ def main():
 
     with open("static/dictionary.json", "w") as writefile:
         json.dump(dictionary, writefile, ensure_ascii=False, indent=2)
+        writefile.write("\n")
+
+    build_lessons()
 
 
 if __name__ == "__main__":

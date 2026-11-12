@@ -1,0 +1,90 @@
+.theory-page {
+  max-width: 760px;
+  padding-top: 2rem;
+}
+.theory-page h1 {
+  margin-bottom: 0.75rem;
+}
+.theory-intro {
+  text-align: center;
+  color: var(--pico-muted-color);
+}
+.lesson-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.lesson-card {
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+}
+.lesson-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+.lesson-card p {
+  margin-bottom: 0;
+  color: var(--pico-muted-color);
+}
+.theory-breadcrumb {
+  margin-bottom: 1.5rem;
+}
+.lesson-toc {
+  display: block;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+}
+.lesson-toc ul {
+  display: block;
+  margin: 0.5rem 0 0;
+}
+.lesson-toc ul ul {
+  margin: 0 0 0 1rem;
+}
+.lesson-toc li {
+  display: list-item;
+  padding: 0;
+}
+.lesson-content {
+  margin-top: 2rem;
+}
+.lesson-content h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.lesson-content .headerlink {
+  margin-left: 0.25rem;
+  opacity: 0;
+  text-decoration: none;
+}
+.lesson-content h2:hover .headerlink,
+.lesson-content .headerlink:focus-visible {
+  opacity: 1;
+}
+.lesson-content table {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.lesson-content th,
+.lesson-content td {
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+.lesson-content blockquote {
+  border-left-color: var(--pico-primary);
+}
+.lesson-back {
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  .theory-page {
+    padding-top: 3.5rem;
+  }
+  .lesson-content table {
+    display: block;
+    overflow-x: auto;
+  }
+}

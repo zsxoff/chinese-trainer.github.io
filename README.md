@@ -16,6 +16,17 @@ Just run anything HTTP-server. Example for Python `http.server`:
 python -m http.server --bind 127.0.0.1
 ```
 
+## Build
+
+Install the build dependencies and regenerate the dictionary and theory pages after editing their sources:
+
+```bash
+python -m pip install -r requirements.txt
+python build.py
+```
+
+Theory sources are Markdown files in `theory/`. Generated pages are written to `lessons/`.
+
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)

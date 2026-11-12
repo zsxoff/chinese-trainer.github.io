@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>汉语 — Тренажёр китайского языка</title>
+    <script src="js/preferences-init.js"></script>
     <link rel="preload" href="static/fonts/noto-sans-sc.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/colors.css" />
   </head>
   <body>
+    <a id="theory-btn" href="lessons/index.html">Уроки</a>
     <main class="container">
       <h1><span class="accent-text">汉语</span> <small>тренажёр</small></h1>
       <button id="accent-btn" aria-label="Сменить акцент">
@@ -151,6 +153,7 @@
       <div class="container">нажмите на карточку или пробел, чтобы показать ответ</div>
     </footer>
 
+    <script src="js/preferences.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
