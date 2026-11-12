@@ -22,12 +22,41 @@
   const hardBtn = document.getElementById("hard-btn");
   const counterEl = document.getElementById("counter");
 
+  const sessionStorageKey = "trainerSession";
+
   function shuffle(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
     }
     return arr;
+  }
+
+  function loadSession() {
+    try {
+      return JSON.parse(localStorage.getItem(sessionStorageKey));
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function saveSession() {
+    const session = {
+      mode: currentMode,
+      quizMode: currentQuizMode,
+      lesson: Number(lessonSelect.value),
+      index: currentIndex,
+      answerShown: answerShown,
+      order:
+        currentQuizMode === "words"
+          ? lessonWords.map(function (item) {
+              return item.ch;
+            })
+          : [],
+    };
+    try {
+      localStorage.setItem(sessionStorageKey, JSON.stringify(session));
+    } catch (_) {}
   }
 
   function render() {
@@ -98,6 +127,8 @@
     prevBtn.disabled = false;
     nextBtn.disabled = false;
     counterEl.textContent = currentIndex + 1 + " / " + lessonWords.length;
+    card.setAttribute("aria-label", answerShown ? "Перейти к следующей карточке" : "Показать ответ");
+    saveSession();
   }
 
   function showAnswer() {
@@ -140,6 +171,61 @@
     render();
   }
 
+  function restoreWordOrder(filtered, order) {
+    const pools = new Map();
+    filtered.forEach(function (item) {
+      if (!pools.has(item.ch)) pools.set(item.ch, []);
+      pools.get(item.ch).push(item);
+    });
+
+    const restored = [];
+    if (Array.isArray(order)) {
+      order.forEach(function (ch) {
+        const pool = pools.get(ch);
+        if (pool && pool.length) restored.push(pool.shift());
+      });
+    }
+
+    const remaining = [];
+    pools.forEach(function (pool) {
+      remaining.push(...pool);
+    });
+    return restored.concat(shuffle(remaining));
+  }
+
+  function restoreSession(session) {
+    if (!session || typeof session !== "object") return;
+
+    if (session.quizMode === "qa") {
+      if (!qaItems.length) return;
+      currentQuizMode = "qa";
+      quizModeBtn.textContent = "Вопрос-Ответ";
+      lessonSelect.parentElement.style.visibility = "hidden";
+      modeSelect.parentElement.style.visibility = "hidden";
+      lessonWords = qaItems.slice();
+    } else {
+      if (session.quizMode !== "words") return;
+      const lesson = Number(session.lesson);
+      const filtered = allWords.filter(function (item) {
+        return item.lesson === lesson;
+      });
+      if (!filtered.length) return;
+      lessonSelect.value = lesson;
+      lessonWords = restoreWordOrder(filtered, session.order);
+    }
+
+    if (["ch", "pn", "ru"].includes(session.mode)) {
+      currentMode = session.mode;
+      modeSelect.value = currentMode;
+    }
+    currentIndex =
+      Number.isInteger(session.index) && session.index >= 0 && session.index < lessonWords.length
+        ? session.index
+        : 0;
+    answerShown = session.answerShown === true;
+    render();
+  }
+
   function populateLessons() {
     var seen = {};
     var lessons = [];
@@ -169,6 +255,7 @@
   }
 
   async function loadData() {
+    const session = loadSession();
     try {
       const resp = await fetch("static/dictionary.json");
       if (resp.ok) {
@@ -182,6 +269,7 @@
       }
     } catch (_) {}
     populateLessons();
+    restoreSession(session);
   }
 
   lessonSelect.addEventListener("change", function () {
@@ -222,7 +310,7 @@
   hardBtn.addEventListener("click", markHard);
 
   document.addEventListener("keydown", function (e) {
-    if (e.target.tagName === "SELECT") return;
+    if (e.target.tagName === "SELECT" || e.target.tagName === "BUTTON") return;
     if (e.key === "ArrowLeft") {
       e.preventDefault();
       prevWord();

@@ -29,6 +29,7 @@ This is a site for practicing Chinese words through repetition.
 - `build.py` — Python script that assembles the final dictionary
 - `static/dictionary.json` — compiled word dictionary (loaded by frontend)
 - `static/questions.json` — Q&A data (`[{"q": "…", "a": "…"}]`)
+- `static/fonts/` — local Noto Sans SC subset covering the site's Chinese text, with its OFL license
 - `AGENTS.md` — project knowledge for the agent
 
 ## Controls grid
@@ -73,15 +74,17 @@ One word contains fields:
 - `showAnswer()` / `prevWord()` / `nextWord()` — navigation, wrapping around.
 - `selectLesson(lesson)` — filters `allWords` by lesson, shuffles, resets index.
 - `populateLessons()` — builds `lesson` select options from `allWords`, using `lesson_name` for display text, sorted numerically by `lesson`.
-- `loadData()` — fetches `static/dictionary.json` and `static/questions.json`.
-- Keyboard: ← prev, → next, Space/Enter — show answer. Ignored when focus is on a `<select>`.
+- `loadData()` — fetches `static/dictionary.json` and `static/questions.json`, then restores the saved session.
+- `saveSession()` / `restoreSession()` — persist the mode, lesson, card order, index, and answer state to `localStorage`.
+- Keyboard: ← prev, → next, Space/Enter — show answer. Ignored when focus is on a `<select>` or `<button>`.
 - Theme and accent init functions.
 
 ## CSS (`css/style.css`)
 
 - `#display` default `font-size: 4rem`, `.lang-ru`/`.lang-pn` `2.5rem`, `.qa` `1.8rem`.
-- `#answer` fades in via `@keyframes fadeIn`.
-- `#card` uses flex column, centered content, min-height 320px.
+- `#answer` appears immediately and uses a polite, atomic live region.
+- `#card` uses flex column, centered content, min-height 320px; it is keyboard-focusable.
+- Buttons, selects, and the card have a visible `:focus-visible` outline.
 - Fixed buttons (`#accent-btn`, `#theme-btn`) top-right.
 
 ## Build

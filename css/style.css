@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../static/fonts/noto-sans-sc.woff2") format("woff2");
+}
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Noto Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 main.container {
   flex: 1;
@@ -19,6 +27,12 @@ h1 small {
 }
 .accent-text {
   color: var(--pico-primary);
+}
+button:focus-visible,
+select:focus-visible,
+#card:focus-visible {
+  outline: 3px solid var(--pico-primary);
+  outline-offset: 3px;
 }
 .controls {
   display: grid;
@@ -143,7 +157,6 @@ button#theme-btn {
 #answer {
   width: 100%;
   margin-top: 1rem;
-  animation: fadeIn 0.2s ease;
 }
 #answer p {
   margin-bottom: 0.25rem;
@@ -154,16 +167,6 @@ button#theme-btn {
 .example-zh {
   color: var(--pico-primary);
   font-weight: 600;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 .nav-buttons {
   display: grid;

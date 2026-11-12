@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>汉语 — Тренажёр китайского языка</title>
+    <link rel="preload" href="static/fonts/noto-sans-sc.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/colors.css" />
@@ -123,11 +124,11 @@
         </label>
       </div>
 
-      <article id="card">
+      <article id="card" tabindex="0" aria-label="Показать ответ">
         <div id="display"></div>
         <div id="answer" hidden>
           <hr />
-          <div id="answer-content"></div>
+          <div id="answer-content" aria-live="polite" aria-atomic="true"></div>
         </div>
       </article>
 
