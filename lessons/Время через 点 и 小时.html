@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Время через 点 и 小时 — Уроки</title>
+    <script src="../js/preferences-init.js"></script>
+    <link rel="preload" href="../static/fonts/noto-sans-sc.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/colors.css" />
+    <link rel="stylesheet" href="../css/theory.css" />
+  </head>
+  <body>
+    <a id="theory-btn" href="../index.html">Тренажёр</a>
+    <button id="accent-btn" aria-label="Сменить акцент">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-dasharray="28"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 3c0 0 7 6 7 12c0 2 1 6-7 6M12 3c0 0-7 6-7 12c0 2 1 6 7 6"
+        >
+          <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="28;0" />
+        </path>
+        <path
+          fill="currentColor"
+          fill-opacity="0"
+          d="M12 3c0 0 3.27 2.81 5.34 8.14l-11.34 8.91c-0.79 -0.17 -1 -2.5 -1 -3.41c0 -6 7-12 7-12Z"
+        >
+          <animate fill="freeze" attributeName="fill-opacity" begin="0.6s" dur="0.4s" to="1" />
+        </path>
+      </svg>
+    </button>
+    <button id="theme-btn" aria-label="Включить тёмную тему">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <g fill="currentColor">
+          <path
+            fill-opacity="0"
+            stroke="currentColor"
+            stroke-dasharray="56"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M7 6c0 6.08 4.92 11 11 11c0.53 0 0.53 -0.04 1.56 -0.11c-1.61 2.67 -4.31 3.88 -7.56 3.88c-4.97 0 -9 -4.03 -9 -9c0 -3.17 1.64 -5.95 4.11 -7.56c-0.07 0.51 -0.11 1.03 -0.11 1.56Z"
+          >
+            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="56;0" />
+            <animate fill="freeze" attributeName="fill-opacity" begin="0.7s" dur="0.15s" to="0.3" />
+          </path>
+          <path
+            d="M15.22 6.03l2.53-1.94-3.19-0.09-1.06-3-1.06 3-3.19 0.09 2.53 1.94-0.91 3.06 2.63-1.81 2.63 1.81-0.91-3.06Z"
+            opacity="0"
+          >
+            <animate
+              attributeName="opacity"
+              begin="0.95s"
+              dur="6s"
+              keyTimes="0;0.1;0.4;0.5;1"
+              repeatCount="indefinite"
+              values="0;1;1;0;0"
+            />
+          </path>
+          <path
+            d="M19.61 12.25l1.64-1.25-2.37-0.05-0.69-1.95-0.69 1.95-2.37 0.05 1.64 1.25-0.59 2.03 1.7-1.16 1.7 1.16-0.59-2.03Z"
+            opacity="0"
+          >
+            <animate
+              attributeName="opacity"
+              begin="0.95s"
+              dur="6s"
+              keyTimes="0;0.2;0.3;0.6;0.7;1"
+              repeatCount="indefinite"
+              values="0;0;1;0;0"
+            />
+          </path>
+          <path
+            d="M13.61 5.25l1.64-1.25-2.37-0.05-0.69-1.95-0.69 1.95-2.37 0.05 1.64 1.25-0.59 2.03 1.7-1.16 1.7 1.16-0.59-2.03Z"
+            opacity="0"
+          >
+            <animate
+              attributeName="opacity"
+              begin="3.95s"
+              dur="6s"
+              keyTimes="0;0.1;0.4;0.5;1"
+              repeatCount="indefinite"
+              values="0;1;1;0;0"
+            />
+          </path>
+          <path
+            d="M20.83 9.73l1.88-1.44-2.37-0.07-0.79-2.22-0.79 2.22-2.37 0.07 1.88 1.44-0.68 2.27 1.95-1.34 1.95 1.34-0.68-2.27Z"
+            opacity="0"
+          >
+            <animate
+              attributeName="opacity"
+              begin="3.95s"
+              dur="6s"
+              keyTimes="0;0.2;0.3;0.6;0.7;1"
+              repeatCount="indefinite"
+              values="0;1;1;0;0"
+            />
+          </path>
+        </g>
+      </svg>
+    </button>
+
+    <main class="container theory-page">
+      <nav class="theory-breadcrumb" aria-label="Навигация"><a href="index.html">← Все уроки</a></nav><h1>Время через 点 и 小时</h1><nav class="lesson-toc" aria-label="Содержание урока"><strong>Содержание</strong><div class="toc">
+<ul>
+<li><a href="#_1">Опорные слова</a></li>
+<li><a href="#_2">Главная идея</a></li>
+<li><a href="#_3">点 — время на часах</a></li>
+<li><a href="#_4">个小时 — длительность</a></li>
+<li><a href="#_5">Не перепутай половину</a></li>
+</ul>
+</div>
+</nav><div class="lesson-content"><h2 id="_1">Опорные слова<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Иероглифы</th>
+<th>Пиньинь</th>
+<th>Перевод или роль</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>点</td>
+<td>diǎn</td>
+<td>час на часах</td>
+</tr>
+<tr>
+<td>小时</td>
+<td>xiǎo shí</td>
+<td>час как длительность</td>
+</tr>
+<tr>
+<td>个</td>
+<td>gè</td>
+<td>счётное слово</td>
+</tr>
+<tr>
+<td>半</td>
+<td>bàn</td>
+<td>половина</td>
+</tr>
+<tr>
+<td>两</td>
+<td>liǎng</td>
+<td>два перед счётным словом</td>
+</tr>
+<tr>
+<td>现在</td>
+<td>xiàn zài</td>
+<td>сейчас</td>
+</tr>
+<tr>
+<td>学习</td>
+<td>xué xí</td>
+<td>учиться, заниматься</td>
+</tr>
+<tr>
+<td>等</td>
+<td>děng</td>
+<td>ждать</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">Главная идея<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><strong>点</strong> и <strong>个小时</strong> отвечают на разные вопросы.</p>
+<table>
+<thead>
+<tr>
+<th>Вопрос</th>
+<th>Конструкция</th>
+<th>Пример</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Во сколько?</td>
+<td>число + 点</td>
+<td>三点 — в три часа</td>
+</tr>
+<tr>
+<td>Как долго?</td>
+<td>число + 个 + 小时</td>
+<td>三个小时 — три часа</td>
+</tr>
+</tbody>
+</table>
+<p>Запомни: <strong>点</strong> — точка на часах, <strong>个小时</strong> — отрезок времени.</p>
+<h2 id="_3">点 — время на часах<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Иероглифы</th>
+<th>Пиньинь</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>现在三点。</td>
+<td>Xiàn zài sān diǎn.</td>
+<td>Сейчас три часа.</td>
+</tr>
+<tr>
+<td>我三点学习。</td>
+<td>Wǒ sān diǎn xué xí.</td>
+<td>Я занимаюсь в три часа.</td>
+</tr>
+</tbody>
+</table>
+<p>Вопрос о времени: <strong>几点？</strong> — «Во сколько? / Который час?».</p>
+<h2 id="_4">个小时 — длительность<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>Перед <strong>小时</strong> обычно ставится счётное слово <strong>个</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Иероглифы</th>
+<th>Пиньинь</th>
+<th>Перевод</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>我学习了三个小时。</td>
+<td>Wǒ xué xí le sān ge xiǎo shí.</td>
+<td>Я занимался три часа.</td>
+</tr>
+<tr>
+<td>我等了两个小时。</td>
+<td>Wǒ děng le liǎng ge xiǎo shí.</td>
+<td>Я ждал два часа.</td>
+</tr>
+</tbody>
+</table>
+<p>Для «два часа» используй <strong>两</strong>: <strong>两个小时</strong>.</p>
+<h2 id="_5">Не перепутай половину<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Конструкция</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>三点半</td>
+<td>3:30, половина четвёртого</td>
+</tr>
+<tr>
+<td>三个半小时</td>
+<td>три с половиной часа</td>
+</tr>
+</tbody>
+</table>
+<p>В первом случае <strong>半</strong> относится ко времени на часах, во втором — к длительности.</p></div><nav class="lesson-back"><a href="index.html">← К оглавлению</a></nav>
+    </main>
+
+    <script src="../js/preferences.js"></script>
+  </body>
+</html>
