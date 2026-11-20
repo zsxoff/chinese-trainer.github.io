@@ -219,9 +219,7 @@
       modeSelect.value = currentMode;
     }
     currentIndex =
-      Number.isInteger(session.index) && session.index >= 0 && session.index < lessonWords.length
-        ? session.index
-        : 0;
+      Number.isInteger(session.index) && session.index >= 0 && session.index < lessonWords.length ? session.index : 0;
     answerShown = session.answerShown === true;
     render();
   }

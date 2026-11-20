@@ -25,3 +25,14 @@ hooks = [{ id = "codespell" }]
 repo = "https://github.com/DavidAnson/markdownlint-cli2"
 rev = "v0.22.1"
 hooks = [{ id = "markdownlint-cli2" }]
+
+[[repos]]
+repo = "https://github.com/oxc-project/mirrors-oxlint"
+rev = "v1.94.0"
+hooks = [{ id = "oxlint" }]
+
+[[repos]]
+repo = "https://github.com/oxc-project/mirrors-oxfmt"
+rev = "v0.79.0"
+hooks = [{ id = "oxfmt" }]
+args = ["--no-error-on-unmatched-pattern"]
